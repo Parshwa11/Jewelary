@@ -5,6 +5,9 @@ technology used : react,nodejs,express,mongodb
 
 steps to start the project in local system 
 
+to install the dependencies head over to main root folder and type the following command (npm i) in CLI ==> This will install the dependencies of backend
+now to install the dependencies of frontend head over to frontend folder and type (npm i)
+
 to start backend server : go to backend folder and write the follwing command ( npm run dev ) into cli Command  
 now your backend will start on port no 4000
 
