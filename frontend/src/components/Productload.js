@@ -94,6 +94,7 @@ export default function Productload() {
 
   useEffect(() => {
     getProduct();
+     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
@@ -105,11 +106,11 @@ export default function Productload() {
           <div key={productData._id} style={Container}>
             <img src={productData.image} style={imageContainer} alt="Hola" />
             <div style={info}>
+            <div style={text}>{productData.description}</div>
               <div style={text}>{productData.name}</div>
               <div style={text}>{productData.price} Rs</div>
 
               <div style={text}>
-                {" "}
                 <Form.Group className="mb-3">
                   <Form.Select
                     aria-label="Default select example"
